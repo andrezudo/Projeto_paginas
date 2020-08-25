@@ -22,7 +22,7 @@ function processarDados(event) {
         <div class="card-body">
           <h5>Resultado:</h5>
             <p>${textoMin}<p>
-            <a class="btn btn-dark" onClick="copiarTexto()">Copiar</a>
+            <a class="btn btn-dark" onClick="copiarTexto()"></a>
         </div>
       </div>
     `;
