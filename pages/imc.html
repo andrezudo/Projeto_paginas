@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./../bootstrap/css/bootstrap.min.css">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="./../estilo/estilo.css">
+
+    <title>Andre APPs - IMC</title>
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">André apps</a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto"> 
+                        <li class="nav-item">
+                            <a href="./../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../pages/imc.html" class="nav-link">IMC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../pages/texto.html" class="nav-link">Editor de Texto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://jogodacobrinha-andre.netlify.app/" class="nav-link" target="_blank">Snack Game</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+    </header>
+
+    <section class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-flex">
+                    <div class="align-self-center">
+                        <h2>Calcule seu IMC (Índice de Massa Corpórea)</h2>
+                        <p>
+                            Basta preencher a calculadora com seu peso e altura. Assim você saberá seu peso ideal.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./../img/saude.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex">
+                <div class="align-self-center">
+                    <h2>Vamos calcular seu IMC</h2>
+                    <p>Basta você informar seu nome, peso e altura.</p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex">
+                <form class="mt-4 mb-4" id="form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Ex: Daniel...">
+                    </div>
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="peso">Peso(KG):</label> 
+                            <input type="number" class="form-control" id="peso" placeholder="Ex: 65,4...">
+                        </div>
+                        <div class="col">
+                            <label for="altura">Altura(CM):</label>
+                            <input type="number" class="form-control" id="altura" placeholder="Ex: 179...">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>
+                </form>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container">
+        <div class="result-container" id="result"></div>
+    </div>
+
+    <footer class="mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <a href="./../index.html">Home</a>
+                        <a href="./../pages/imc.html">IMC</a>
+                        <a href="./../pages/texto.html">Editor de Texto</a>
+                        <a href="https://jogodacobrinha-andre.netlify.app/" target="_blank">Snack Game</a>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <a href="https://www.facebook.com/profile.php?id=100023712129992" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-facebook"></i>  
+                    </a>
+                    <a href="https://www.instagram.com/andreluispacheco_/?hl=pt-br" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-instagram"></i>  
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5586994998786" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-whatsapp"></i>  
+                    </a>
+                    <a href="https://github.com/AndreLuis6" class="btn btn-outline-dark ml-2">
+                        <i class="fab fa-github"></i>  
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="./../bootstrap/js/bootstrap.min.js"></script>
+        <script src="./../js/script.js" type="text/javascript"></script>
+    </body>
+</html>
